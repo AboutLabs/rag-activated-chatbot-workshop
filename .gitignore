@@ -1,0 +1,95 @@
+# Ignore Visual Studio temporary files, build results, and
+# .NET files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.lock.json
+*.env
+*.config
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Solution files
+*.sln
+*.suo
+*.csproj.user
+
+# Visual Studio files and folders
+.vs/
+**/*.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code files
+.vscode/
+.history/
+
+# Local History for Visual Studio Code
+.history/
+
+# Dotnet tool directories
+**/.dotnet_tools/
+
+# User secrets
+**/secrets.json
+**/.usersecrets/
+
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+logs/
+debug.log
+
+# Azure Functions
+.local.settings.json
+
+# Configuration files (optional, if they contain sensitive info)
+appsettings*.json
+
+# Project-specific folders
+01-echo-bot/bin/
+01-echo-bot/obj/
+02-document-processing/bin/
+02-document-processing/obj/
+03-vector-embeddings/bin/
+03-vector-embeddings/obj/
+04-semantic-search/bin/
+04-semantic-search/obj/
+05-final-project/bin/
+05-final-project/obj/
