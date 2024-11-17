@@ -1,0 +1,1 @@
+# rag-activated-chatbot-workshop
